@@ -1,0 +1,10 @@
+{
+  "extends": "@nextgenpageant/typescript-config/react.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
+  "include": ["src"]
+}

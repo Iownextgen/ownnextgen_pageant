@@ -1,0 +1,25 @@
+{
+  "name": "@nextgenpageant/shared",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "@nextgenpageant/eslint-config": "workspace:*",
+    "@nextgenpageant/typescript-config": "workspace:*"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}

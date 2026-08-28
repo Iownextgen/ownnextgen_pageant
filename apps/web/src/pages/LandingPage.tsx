@@ -1,3 +1,6 @@
 export const LandingPage = () => {
-  return <div className="bg-amber-300 text-3xl">sample</div>;
+  return (
+  <div className="bg-amber-950 text-3xl">
+    lou ralph
+  </div>);
 };
